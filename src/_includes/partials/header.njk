@@ -1,0 +1,13 @@
+<header class="site-header">
+  <div class="site-header__row">
+    <a class="brand" href="/">
+      <span class="brand__prompt">~$</span> {{ site.title }}<span class="brand__cursor"></span>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="/" {% if page.url == "/" %}aria-current="page"{% endif %}>log</a>
+      <a href="/tags/" {% if "/tags/" in page.url %}aria-current="page"{% endif %}>tags</a>
+      <a href="/about/" {% if page.url == "/about/" %}aria-current="page"{% endif %}>about</a>
+      <a href="/feed.xml">rss</a>
+    </nav>
+  </div>
+</header>

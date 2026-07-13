@@ -1,0 +1,14 @@
+<div class="ad-slot {{ extraClass }}">
+  {% if site.adsenseEnabled %}
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="{{ site.adsenseClientId }}"
+         data-ad-slot="{{ slotId or '0000000000' }}"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  {% else %}
+    <div class="ad-slot__label">ad slot — {{ label or "in-article" }}</div>
+    <div class="ad-slot__box">enable adsenseEnabled in _data/site.json to activate</div>
+  {% endif %}
+</div>

@@ -1,0 +1,16 @@
+---
+layout: layouts/base.njk
+title: About
+description: Who writes this blog and what it covers.
+permalink: /about/
+---
+<section class="section">
+  <h1>About</h1>
+  <p>Hi, I'm {{ site.author }}. This is where I write about software, systems, and whatever bug ate my weekend.</p>
+  <p>Edit this page at <code>src/about.njk</code> — and update your name, bio, and links in <code>src/_data/site.json</code>.</p>
+  <p>
+    {% if site.github %}<a href="https://github.com/{{ site.github }}">GitHub</a>{% endif %}
+    {% if site.twitter %} · <a href="https://twitter.com/{{ site.twitter }}">Twitter</a>{% endif %}
+    {% if site.authorEmail %} · <a href="mailto:{{ site.authorEmail }}">Email</a>{% endif %}
+  </p>
+</section>

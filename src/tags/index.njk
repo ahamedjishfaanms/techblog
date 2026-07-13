@@ -1,0 +1,15 @@
+---
+layout: layouts/base.njk
+title: Tags
+description: Browse posts by topic.
+permalink: /tags/
+---
+<section class="section">
+  <h1>Tags</h1>
+  <p style="color:var(--muted)">Browse every entry by topic.</p>
+  <div class="taglist">
+    {% for tag in collections.tagList %}
+    <a class="tag-pill" href="/tags/{{ tag | slugify }}/">#{{ tag }}</a>
+    {% endfor %}
+  </div>
+</section>

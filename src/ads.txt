@@ -1,0 +1,2 @@
+# Replace with the line AdSense gives you after you sign up, e.g.:
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0

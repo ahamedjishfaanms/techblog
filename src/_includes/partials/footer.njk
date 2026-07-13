@@ -1,0 +1,10 @@
+<footer class="site-footer">
+  <div class="site-footer__row">
+    <span>© {{ currentYear }} {{ site.author }} · built with Eleventy</span>
+    <span>
+      <a href="/feed.xml">rss</a>
+      {% if site.github %} · <a href="https://github.com/{{ site.github }}">github</a>{% endif %}
+      {% if site.twitter %} · <a href="https://twitter.com/{{ site.twitter }}">twitter</a>{% endif %}
+    </span>
+  </div>
+</footer>

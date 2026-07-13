@@ -1,0 +1,20 @@
+{
+  "title": "commit log",
+  "tagline": "notes from the terminal",
+  "description": "A tech blog on software, systems, and the occasional yak-shave.",
+  "url": "https://your-username.github.io/your-repo",
+  "author": "Your Name",
+  "authorEmail": "you@example.com",
+  "twitter": "yourhandle",
+  "github": "your-username",
+  "adsenseClientId": "ca-pub-XXXXXXXXXXXXXXXX",
+  "adsenseEnabled": false,
+  "giscusEnabled": false,
+  "giscus": {
+    "repo": "your-username/your-repo",
+    "repoId": "",
+    "category": "Comments",
+    "categoryId": ""
+  },
+  "language": "en"
+}
